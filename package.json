@@ -1,0 +1,25 @@
+{
+  "name": "json-field-check",
+  "version": "0.0.1",
+  "description": "check illegal json field such as Set,Map,Function etc.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "rm -rf dist typings && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["json","recursion","standard json check"],
+  "author": "rick.li",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.20.15",
+    "ts-node": "^10.0.0",
+    "typescript": "^3.8.3"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "publishConfig": {
+    "registry": "http://nexus.17usoft.com/repository/npm-fe/"
+  }
+}
