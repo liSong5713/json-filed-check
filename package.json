@@ -23,8 +23,5 @@
   "engines": {
     "node": ">=8"
   },
-  "licenses": "MIT",
-  "publishConfig": {
-    "registry": "http://nexus.17usoft.com/repository/npm-fe/"
-  }
+  "licenses": "MIT"
 }
