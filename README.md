@@ -15,7 +15,7 @@ npm install json-field-check
 import jsonFieldCheck from 'json-field-check'
 
 // commonjs
-const  jsonFieldCheck = require('json-field-check')
+const  jsonFieldCheck = require('json-field-check').default
 
 jsonFieldCheck(targetObject)
 
