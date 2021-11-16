@@ -11,6 +11,10 @@
   "keywords": ["json","recursion","standard json check"],
   "author": "rick.li",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:liSong5713/json-filed-check.git"
+  },
   "devDependencies": {
     "@types/node": "^12.20.15",
     "ts-node": "^10.0.0",
@@ -19,6 +23,7 @@
   "engines": {
     "node": ">=8"
   },
+  "licenses": "MIT",
   "publishConfig": {
     "registry": "http://nexus.17usoft.com/repository/npm-fe/"
   }
