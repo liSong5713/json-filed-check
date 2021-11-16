@@ -1,6 +1,6 @@
 {
   "name": "json-field-check",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "check illegal json field such as Set,Map,Function etc.",
   "main": "./dist/index.js",
   "scripts": {
@@ -8,7 +8,11 @@
     "build": "rm -rf dist typings && tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["json","recursion","standard json check"],
+  "keywords": [
+    "json",
+    "recursion",
+    "standard json check"
+  ],
   "author": "rick.li",
   "license": "ISC",
   "repository": {
